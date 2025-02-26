@@ -1,0 +1,6 @@
+langchain
+langgraph
+langchain_mistralai
+langchain_groq
+langchain_deepseek
+fastapi
