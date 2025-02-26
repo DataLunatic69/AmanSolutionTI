@@ -4,3 +4,5 @@ langchain_mistralai
 langchain_groq
 langchain_deepseek
 fastapi
+dotenv
+pyyaml
