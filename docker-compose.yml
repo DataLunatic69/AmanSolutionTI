@@ -1,13 +1,15 @@
-version: '3.8'
+version: "3.8"
 
 services:
-  llm-microservice:
+  app:
     build: .
-    container_name: llm_microservice
+    container_name: ai_microservice
     ports:
-      - "5000:5000"
-    env_file:
-      - .env
+      - "5000:5000"   
     volumes:
-      - ./logs:/app/logs
-    restart: always
+      - .:/app         
+    environment:
+      - FLASK_ENV=development 
+    restart: unless-stopped  
+
+

@@ -1,9 +1,9 @@
 from flask import Flask, request, jsonify
-from workflow import ModelSwitcher
+from provider import ModelSwitcher
 import yaml
 import os
 
-# Load configuration file
+
 with open("providers.yaml", "r") as file:
     config = yaml.safe_load(file)
 

@@ -1,16 +1,11 @@
 providers:
-  - name: "deepseek"
-    model_name: "deepseek-r1-distill-qwen-32b"
-    api_key: "ggsk_P2VaSOGpq165OB8pK8l8WGdyb3FY2I3OCsu2cdzEaY7WkSOLfenT"
-    cost_per_100_tokens: 0.0025
-  
-  - name: "mixtral"
-    model_name: "mixtral-8x7b-32768"
-    api_key: "ggsk_P2VaSOGpq165OB8pK8l8WGdyb3FY2I3OCsu2cdzEaY7WkSOLfenT"
-    cost_per_100_tokens: 0.0030
-  
-  - name: "llama"
-    model_name: "llama-3.3-70b-versatile"
-    api_key: "ggsk_P2VaSOGpq165OB8pK8l8WGdyb3FY2I3OCsu2cdzEaY7WkSOLfenT"
-    cost_per_100_tokens: 0.0040
-
+  - name: "ollama"
+    endpoint: "https://api.ollama.com/v1/chat"
+    token: "your-ollama-api-token"
+    cost_per_1k_tokens: 0.002
+    priority: 1
+  - name: "groq"
+    endpoint: "https://api.groq.com/v1/generate"
+    token: "your-groq-api-token"
+    cost_per_1k_tokens: 0.001
+    priority: 2
