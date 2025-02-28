@@ -5,23 +5,23 @@ from logging.handlers import RotatingFileHandler
 def setup_logging():
     """Configure application logging"""
 
-    # Create logs directory if it doesn't exist
+    
     log_dir = 'logs'
     if not os.path.exists(log_dir):
         os.makedirs(log_dir)
 
-    # Configure root logger with DEBUG level for development
+    
     logging.basicConfig(
         level=logging.DEBUG,
         format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
     )
 
-    # Create formatter
+    
     formatter = logging.Formatter(
         '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
     )
 
-    # Configure file handler with rotation
+   
     log_file = os.path.join(log_dir, 'usage.log')
     file_handler = RotatingFileHandler(
         log_file,
@@ -30,11 +30,11 @@ def setup_logging():
     )
     file_handler.setFormatter(formatter)
 
-    # Configure console handler for immediate feedback
+    
     console_handler = logging.StreamHandler()
     console_handler.setFormatter(formatter)
 
-    # Get root logger and add handlers
+   
     root_logger = logging.getLogger('')
     root_logger.addHandler(file_handler)
     root_logger.addHandler(console_handler)
