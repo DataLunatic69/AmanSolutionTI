@@ -1,11 +1,22 @@
 providers:
-  - name: "ollama"
-    endpoint: "https://api.ollama.com/v1/chat"
-    token: "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"
-    cost_per_1k_tokens: 0.002
-    priority: 1
-  - name: "groq"
-    endpoint: "https://api.groq.com/v1/generate"
+  - name: "groq_llama"
+    endpoint: "https://api.groq.com/openai/v1/chat/completions"
     token: "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"
     cost_per_1k_tokens: 0.001
+    priority: 1
+    model: "llama-3.1-8b-instant"
+    temperature: 0.7
+  - name: "together_llama"
+    endpoint: "https://api.together.xyz/inference"
+    token: "c234a10eff5e31bb04af508be197d0723f51ebaca9d2e345b4db13794a8f8479"
+    cost_per_1k_tokens: 0.0015
     priority: 2
+    model: "meta-llama/Llama-3-70b-chat-hf"
+    temperature: 0.7
+  - name: "groq_mixtral"
+    endpoint: "https://api.groq.com/openai/v1/chat/completions"
+    token: "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"
+    cost_per_1k_tokens: 0.001
+    priority: 3
+    model: "mixtral-8x7b-32768"
+    temperature: 0.7
