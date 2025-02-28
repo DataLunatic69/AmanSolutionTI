@@ -41,7 +41,7 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 1. providers.yml:
    ```bash
   providers:
-  - name: "groq_llama"
+   name: "groq_llama"
     endpoint: "https://api.groq.com/openai/v1/chat/completions"
     token: "${GROQ_API_KEY}"
     cost_per_1k_tokens: 0.001
@@ -49,7 +49,7 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     model: "llama-3.1-8b-instant"
     temperature: 0.7
 
-  - name: "together_llama"
+   name: "together_llama"
     endpoint: "https://api.together.xyz/inference"
     token: "${TOGETHER_API_KEY}"
     cost_per_1k_tokens: 0.0015
@@ -58,7 +58,7 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     temperature: 0.7
 
  ## Running the script
-1. command for installation:
+1. run the script:
    ```bash
      python main.py
 
