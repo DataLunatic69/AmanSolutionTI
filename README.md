@@ -34,8 +34,8 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 ## Environment variable
 1. command for installation:
    ```bash
-   export GROQ_API_KEY="your-groq-api-key
-   export TOGETHER_API_KEY="your-together-api-key
+   export GROQ_API_KEY=your-groq-api-key
+   export TOGETHER_API_KEY=your-together-api-key
 
 ## Configuration
 1. providers.yml:
@@ -56,6 +56,11 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     priority: 2
     model: "meta-llama/Llama-3-70b-chat-hf"
     temperature: 0.7
+
+ ## Running the script
+1. command for installation:
+   ```bash
+     python main.py
 
 
 
