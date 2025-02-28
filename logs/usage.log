@@ -12,3 +12,15 @@
 2025-02-28 08:25:20,202 - root - INFO - Initialized 2 providers
 2025-02-28 08:25:20,222 - werkzeug - WARNING -  * Debugger is active!
 2025-02-28 08:25:20,228 - werkzeug - INFO -  * Debugger PIN: 631-092-227
+2025-02-28 08:25:31,722 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:25:31] "GET / HTTP/1.1" 200 -
+2025-02-28 08:25:33,082 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:25:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-28 08:25:45,253 - root - INFO - Received generate request
+2025-02-28 08:25:45,255 - root - INFO - Request data: {'prompt': 'who is virat kohli?'}
+2025-02-28 08:25:45,256 - root - INFO - Calling model router
+2025-02-28 08:25:45,257 - root - INFO - Attempting invocation with ollama...
+2025-02-28 08:25:45,258 - root - INFO - Using (None)
+2025-02-28 08:25:45,259 - root - INFO - Successfully used provider: ollama
+2025-02-28 08:25:45,260 - root - INFO - Got response from provider: ollama
+2025-02-28 08:25:45,261 - root - INFO - Model: ollama, Tokens: 14, Status: Success, Time: 0.01s
+2025-02-28 08:25:45,262 - root - INFO - Sending response: {'response': 'This is a mock response from Ollama for the prompt: who is virat kohli?', 'model_used': 'ollama', 'tokens_used': 14, 'time_taken': '0.01s', 'activity_log': ['Attempting invocation with ollama...', 'Using (None)']}
+2025-02-28 08:25:45,265 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 08:25:45] "POST /generate HTTP/1.1" 200 -
