@@ -16,13 +16,13 @@ This project is a multi-LLM cost-optimized API microservice that routes requests
    ```bash
    git clone https://github.com/yourusername/your-repo.git
    cd AmanSolutionTI
-```
 
-## Creating environment
+
+## **Creating environment
 
 2. Clone the repository:
    ```bash
    python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
-```
+
