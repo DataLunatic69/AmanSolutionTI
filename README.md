@@ -15,5 +15,5 @@ This project is a multi-LLM cost-optimized API microservice that routes requests
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/your-repo.git
-   cd 
+   cd AmanSolutionTI
 ```
