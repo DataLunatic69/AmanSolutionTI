@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # LLM Fallback System
 
 A robust multi-provider LLM system with dynamic routing and intelligent error handling. The system automatically switches between different LLM providers (Groq and Together) when errors occur, ensuring high availability and reliability.
@@ -142,3 +143,4 @@ providers:
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
