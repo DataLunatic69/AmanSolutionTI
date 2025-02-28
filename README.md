@@ -31,6 +31,13 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    ```bash
    pip install -r requirements.txt
 
+## Environment variable
+1. command for installation:
+   ```bash
+   export GROQ_API_KEY="your-groq-api-key"
+   export TOGETHER_API_KEY="your-together-api-key"
+
+
 
 
 
