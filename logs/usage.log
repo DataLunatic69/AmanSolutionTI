@@ -146,3 +146,169 @@
 2025-02-28 09:16:53,884 - root - DEBUG - Together API response: {'id': '918f51607f191144-ORD', 'created_at': '2025-02-28T09:16:48.130Z', 'status': 'finished', 'prompt': ['<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\nwho is virat kohli?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n'], 'model': 'meta-llama/Llama-3-70b-chat-hf', 'model_routed': 'meta-llama/Llama-3-70b-chat-hf', 'model_owner': '', 'num_returns': 1, 'args': {'model': 'meta-llama/Llama-3-70b-chat-hf', 'messages': [{'role': 'user', 'content': 'who is virat kohli?'}], 'temperature': 0.7, 'max_tokens': 1000}, 'subjobs': [], 'usage': {'prompt_tokens': 18, 'completion_tokens': 441, 'total_tokens': 459, 'duration': 5717}, 'output': {'finish_reason': 'stop_sequence', 'usage': {'prompt_tokens': 18, 'completion_tokens': 441, 'total_tokens': 459}, 'result_type': 'language-model-inference', 'choices': [{'text': "Virat Kohli is an Indian international cricketer who is widely regarded as one of the greatest batsmen of all time. He is the current captain of the India national team in all formats, including Test, One-Day Internationals (ODIs), and Twenty20 Internationals (T20Is).\n\nBorn on November 5, 1988, in Delhi, India, Kohli made his international debut in 2008 and has since become a dominant force in world cricket. He is known for his aggressive and technically sound batting style, which has earned him numerous accolades and records.\n\nHere are some of his notable achievements:\n\n* Highest run-getter in T20Is (over 3,000 runs)\n* Fastest to reach 10,000 runs in ODI cricket (in 215 innings)\n* Most centuries in international cricket (70+)\n* Highest average in Test cricket among active players (over 50)\n* First player to score 20,000 runs in international cricket\n* Led India to victory in the 2011 ICC Cricket World Cup (as a member of the team) and the 2013 ICC Champions Trophy (as captain)\n* Recipient of numerous awards, including the ICC Cricketer of the Year (2012, 2017), BCCI's Polly Umrigar Award for International Cricketer of the Year (2011-12, 2014-15, 2015-16), and the Padma Shri (2017)\n\nKohli is also known for his fitness and athleticism, which has inspired a generation of young cricketers. He is married to actress Anushka Sharma and is an avid supporter of various social and environmental causes.\n\nOff the field, Kohli is a successful entrepreneur and investor, with interests in fashion, fitness, and sports technology. He has also been involved in various philanthropic initiatives, including the Virat Kohli Foundation, which supports underprivileged children and promotes education and sports development in India.\n\nOverall, Virat Kohli is a cricketing legend, a passionate leader, and an inspirational figure who continues to dominate the sport and inspire millions around the world.", 'finish_reason': 'stop', 'token_ids': [50135, 266, 34975, 747, 374, 459, 7904, 6625, 1589, 875, 1430, 889, 374, 13882, 27458, 439, 832, 315, 279, 12474, 43308, 5794, 315, 682, 892, 13, 1283, 374, 279, 1510, 24862, 315, 279, 6890, 5426, 2128, 304, 682, 20447, 11, 2737, 3475, 11, 3861, 56012, 4514, 367, 1147, 320, 2114, 3957, 705, 323, 44956, 508, 4514, 367, 1147, 320, 51, 508, 3957, 3677, 59204, 389, 6841, 220, 20, 11, 220, 3753, 23, 11, 304, 22767, 11, 6890, 11, 34975, 747, 1903, 813, 6625, 17755, 304, 220, 1049, 23, 323, 706, 2533, 3719, 264, 25462, 5457, 304, 1917, 37099, 13, 1283, 374, 3967, 369, 813, 19738, 323, 32654, 5222, 51910, 1742, 11, 902, 706, 15662, 1461, 12387, 86643, 3536, 323, 7576, 382, 8586, 527, 1063, 315, 813, 28289, 33997, 1473, 9, 60713, 1629, 23304, 466, 304, 350, 508, 3957, 320, 2017, 220, 18, 11, 931, 8640, 340, 9, 17737, 478, 311, 5662, 220, 605, 11, 931, 8640, 304, 507, 18091, 37099, 320, 258, 220, 12112, 36100, 340, 9, 7648, 24552, 304, 6625, 37099, 320, 2031, 10, 340, 9, 60713, 5578, 304, 3475, 37099, 4315, 4642, 4311, 320, 2017, 220, 1135, 340, 9, 5629, 2851, 311, 5573, 220, 508, 11, 931, 8640, 304, 6625, 37099, 198, 9, 32755, 6890, 311, 12845, 304, 279, 220, 679, 16, 59332, 59019, 4435, 11098, 320, 300, 264, 4562, 315, 279, 2128, 8, 323, 279, 220, 679, 18, 59332, 29908, 56204, 320, 300, 24862, 340, 9, 4158, 14449, 315, 12387, 23146, 11, 2737, 279, 59332, 4656, 875, 1430, 315, 279, 9941, 320, 679, 17, 11, 220, 679, 22, 705, 426, 86367, 596, 94517, 24218, 14746, 277, 17768, 369, 7327, 4656, 875, 1430, 315, 279, 9941, 320, 679, 16, 12, 717, 11, 220, 679, 19, 12, 868, 11, 220, 679, 20, 12, 845, 705, 323, 279, 26367, 1764, 1443, 462, 320, 679, 22, 696, 42, 2319, 747, 374, 1101, 3967, 369, 813, 17479, 323, 93174, 11, 902, 706, 14948, 264, 9659, 315, 3995, 1589, 875, 2481, 13, 1283, 374, 12502, 311, 24577, 1556, 1136, 4657, 61115, 323, 374, 459, 56653, 37563, 315, 5370, 3674, 323, 12434, 11384, 382, 4699, 279, 2115, 11, 34975, 747, 374, 264, 6992, 29349, 323, 30693, 11, 449, 12034, 304, 11401, 11, 17479, 11, 323, 10034, 5557, 13, 1283, 706, 1101, 1027, 6532, 304, 5370, 58738, 45036, 28271, 11, 2737, 279, 9734, 266, 34975, 747, 5114, 11, 902, 11815, 1234, 98388, 2911, 323, 39990, 6873, 323, 10034, 4500, 304, 6890, 382, 28589, 11, 9734, 266, 34975, 747, 374, 264, 37099, 287, 13314, 11, 264, 25429, 7808, 11, 323, 459, 57314, 7216, 889, 9731, 311, 41836, 279, 10775, 323, 31740, 11990, 2212, 279, 1917, 13, 128009], 'seed': 10873548862642717000}], 'prompt': [{'text': '<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\nwho is virat kohli?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n', 'token_ids': [], 'tokens': [], 'token_logprobs': []}]}}
 2025-02-28 09:16:53,884 - root - INFO - Successfully generated response using Together together_llama (meta-llama/Llama-3-70b-chat-hf)
 2025-02-28 09:16:53,885 - root - INFO - Successfully generated response using together_llama
+2025-02-28 15:29:29,674 - root - INFO - Logging setup complete
+2025-02-28 15:29:29,677 - root - INFO - Loaded config from providers.yaml
+2025-02-28 15:29:29,678 - root - INFO - Initialized Groq provider (groq_llama) with model: llama-3.1-8b-instant
+2025-02-28 15:29:29,678 - root - INFO - Initialized provider: groq_llama with model llama-3.1-8b-instant
+2025-02-28 15:29:29,679 - root - INFO - Initialized Together provider (together_llama) with model: meta-llama/Llama-3-70b-chat-hf
+2025-02-28 15:29:29,679 - root - INFO - Initialized provider: together_llama with model meta-llama/Llama-3-70b-chat-hf
+2025-02-28 15:29:29,680 - root - INFO - Initialized Groq provider (groq_mixtral) with model: mixtral-8x7b-32768
+2025-02-28 15:29:29,681 - root - INFO - Initialized provider: groq_mixtral with model mixtral-8x7b-32768
+2025-02-28 15:29:29,681 - root - INFO - Initialized 3 providers
+2025-02-28 15:29:29,721 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.3.13.97:5000
+2025-02-28 15:29:29,722 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-02-28 15:29:29,724 - werkzeug - INFO -  * Restarting with stat
+2025-02-28 15:29:30,084 - root - INFO - Logging setup complete
+2025-02-28 15:29:30,088 - root - INFO - Loaded config from providers.yaml
+2025-02-28 15:29:30,089 - root - INFO - Initialized Groq provider (groq_llama) with model: llama-3.1-8b-instant
+2025-02-28 15:29:30,090 - root - INFO - Initialized provider: groq_llama with model llama-3.1-8b-instant
+2025-02-28 15:29:30,090 - root - INFO - Initialized Together provider (together_llama) with model: meta-llama/Llama-3-70b-chat-hf
+2025-02-28 15:29:30,091 - root - INFO - Initialized provider: together_llama with model meta-llama/Llama-3-70b-chat-hf
+2025-02-28 15:29:30,091 - root - INFO - Initialized Groq provider (groq_mixtral) with model: mixtral-8x7b-32768
+2025-02-28 15:29:30,092 - root - INFO - Initialized provider: groq_mixtral with model mixtral-8x7b-32768
+2025-02-28 15:29:30,092 - root - INFO - Initialized 3 providers
+2025-02-28 15:29:30,120 - werkzeug - WARNING -  * Debugger is active!
+2025-02-28 15:29:30,126 - werkzeug - INFO -  * Debugger PIN: 631-092-227
+2025-02-28 15:29:35,816 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 15:29:35] "GET / HTTP/1.1" 200 -
+2025-02-28 15:29:49,283 - root - INFO - Attempting to use groq_llama (llama-3.1-8b-instant)
+2025-02-28 15:29:49,284 - root - INFO - Attempting to use together_llama (meta-llama/Llama-3-70b-chat-hf)
+2025-02-28 15:29:49,286 - root - INFO - Calling Together API (together_llama) with model meta-llama/Llama-3-70b-chat-hf
+2025-02-28 15:29:49,293 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.together.xyz:443
+2025-02-28 15:29:52,921 - urllib3.connectionpool - DEBUG - https://api.together.xyz:443 "POST /inference HTTP/1.1" 200 None
+2025-02-28 15:29:52,925 - root - DEBUG - Together API response: {'id': '918f9067b9dc5512-PDX', 'created_at': '2025-02-28T09:59:49.885Z', 'status': 'finished', 'prompt': ['<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\nWho is Virat Kohli?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n'], 'model': 'meta-llama/Llama-3-70b-chat-hf', 'model_routed': 'meta-llama/Llama-3-70b-chat-hf', 'model_owner': '', 'num_returns': 1, 'args': {'model': 'meta-llama/Llama-3-70b-chat-hf', 'messages': [{'role': 'user', 'content': 'Who is Virat Kohli?'}], 'temperature': 0.7, 'max_tokens': 1000}, 'subjobs': [], 'usage': {'prompt_tokens': 17, 'completion_tokens': 402, 'total_tokens': 419, 'duration': 3022}, 'output': {'finish_reason': 'stop_sequence', 'usage': {'prompt_tokens': 17, 'completion_tokens': 402, 'total_tokens': 419}, 'result_type': 'language-model-inference', 'choices': [{'text': "Virat Kohli is an Indian international cricketer who currently captains the India national team in all formats of the game. He is a right-handed batsman and is widely regarded as one of the greatest batsmen of all time.\n\nKohli was born on November 5, 1988, in Delhi, India. He made his international debut for India in 2008 and has since become one of the most successful and dominant players in the world. He has played for several teams, including the Delhi Daredevils in the Indian Premier League (IPL) and Royal Challengers Bangalore.\n\nKohli's achievements on the field are numerous and impressive. He has scored over 23,000 runs in international cricket, including 70 centuries, and has been ranked as the number one Test batsman in the world on several occasions. He has also led India to several victories, including a Test series win in Australia in 2018-19, which was India's first-ever Test series win in Australia.\n\nKohli is known for his aggressive style of play, his ability to score quickly, and his fitness and athleticism. He is also known for his passion and intensity on the field, and has been involved in several high-profile rivalries with opposing players.\n\nOff the field, Kohli is known for his philanthropic work, particularly in the area of education and healthcare. He has been involved in several charitable initiatives, including the Virat Kohli Foundation, which aims to support underprivileged children.\n\nKohli has received numerous awards and accolades for his achievements, including the ICC Cricketer of the Year award, the Wisden Leading Cricketer in the World award, and the Padma Shri, one of India's highest civilian honors.\n\nOverall, Virat Kohli is widely regarded as one of the greatest cricketers of all time, known for his exceptional skills, his passion and intensity, and his commitment to philanthropy and giving back to the community.", 'finish_reason': 'stop', 'token_ids': [50135, 266, 34975, 747, 374, 459, 7904, 6625, 1589, 875, 1430, 889, 5131, 90984, 279, 6890, 5426, 2128, 304, 682, 20447, 315, 279, 1847, 13, 1283, 374, 264, 1314, 37240, 43308, 1543, 323, 374, 13882, 27458, 439, 832, 315, 279, 12474, 43308, 5794, 315, 682, 892, 382, 42, 2319, 747, 574, 9405, 389, 6841, 220, 20, 11, 220, 3753, 23, 11, 304, 22767, 11, 6890, 13, 1283, 1903, 813, 6625, 17755, 369, 6890, 304, 220, 1049, 23, 323, 706, 2533, 3719, 832, 315, 279, 1455, 6992, 323, 25462, 4311, 304, 279, 1917, 13, 1283, 706, 6476, 369, 3892, 7411, 11, 2737, 279, 22767, 67931, 3667, 8839, 304, 279, 7904, 20210, 9130, 320, 40, 2989, 8, 323, 16591, 70485, 15232, 59225, 382, 42, 2319, 747, 596, 33997, 389, 279, 2115, 527, 12387, 323, 16358, 13, 1283, 706, 16957, 927, 220, 1419, 11, 931, 8640, 304, 6625, 37099, 11, 2737, 220, 2031, 24552, 11, 323, 706, 1027, 21682, 439, 279, 1396, 832, 3475, 43308, 1543, 304, 279, 1917, 389, 3892, 25975, 13, 1283, 706, 1101, 6197, 6890, 311, 3892, 46146, 11, 2737, 264, 3475, 4101, 3243, 304, 8494, 304, 220, 679, 23, 12, 777, 11, 902, 574, 6890, 596, 1176, 57540, 3475, 4101, 3243, 304, 8494, 382, 42, 2319, 747, 374, 3967, 369, 813, 19738, 1742, 315, 1514, 11, 813, 5845, 311, 5573, 6288, 11, 323, 813, 17479, 323, 93174, 13, 1283, 374, 1101, 3967, 369, 813, 11939, 323, 21261, 389, 279, 2115, 11, 323, 706, 1027, 6532, 304, 3892, 1579, 25171, 21425, 4108, 449, 31322, 4311, 382, 4699, 279, 2115, 11, 34975, 747, 374, 3967, 369, 813, 58738, 45036, 990, 11, 8104, 304, 279, 3158, 315, 6873, 323, 18985, 13, 1283, 706, 1027, 6532, 304, 3892, 48801, 28271, 11, 2737, 279, 9734, 266, 34975, 747, 5114, 11, 902, 22262, 311, 1862, 1234, 98388, 2911, 382, 42, 2319, 747, 706, 4036, 12387, 23146, 323, 86643, 3536, 369, 813, 33997, 11, 2737, 279, 59332, 4656, 875, 1430, 315, 279, 9941, 10292, 11, 279, 16208, 5294, 59143, 4656, 875, 1430, 304, 279, 4435, 10292, 11, 323, 279, 26367, 1764, 1443, 462, 11, 832, 315, 6890, 596, 8592, 30028, 49593, 382, 28589, 11, 9734, 266, 34975, 747, 374, 13882, 27458, 439, 832, 315, 279, 12474, 1589, 875, 2481, 315, 682, 892, 11, 3967, 369, 813, 25363, 7512, 11, 813, 11939, 323, 21261, 11, 323, 813, 15507, 311, 58738, 18237, 323, 7231, 1203, 311, 279, 4029, 13, 128009], 'seed': 6326722514816283000}], 'prompt': [{'text': '<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\nWho is Virat Kohli?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n', 'token_ids': [], 'tokens': [], 'token_logprobs': []}]}}
+2025-02-28 15:29:52,930 - root - INFO - Successfully generated response using Together together_llama (meta-llama/Llama-3-70b-chat-hf)
+2025-02-28 15:29:52,932 - root - INFO - Successfully generated response using together_llama
+2025-02-28 15:29:52,935 - werkzeug - INFO - 127.0.0.1 - - [28/Feb/2025 15:29:52] "POST /api/generate HTTP/1.1" 200 -
+2025-02-28 15:32:44,319 - werkzeug - INFO -  * Detected change in 'c:\\Users\\amans\\OneDrive\\Desktop\\TotemInteractive\\main.py', reloading
+2025-02-28 15:32:44,372 - werkzeug - INFO -  * Restarting with stat
+2025-02-28 15:32:44,740 - root - INFO - Logging setup complete
+2025-02-28 15:32:44,745 - root - INFO - Loaded config from providers.yaml
+2025-02-28 15:32:44,746 - root - INFO - Initialized Groq provider (groq_llama) with model: llama-3.1-8b-instant
+2025-02-28 15:32:44,747 - root - INFO - Initialized provider: groq_llama with model llama-3.1-8b-instant
+2025-02-28 15:32:44,747 - root - INFO - Initialized Together provider (together_llama) with model: meta-llama/Llama-3-70b-chat-hf
+2025-02-28 15:32:44,748 - root - INFO - Initialized provider: together_llama with model meta-llama/Llama-3-70b-chat-hf
+2025-02-28 15:32:44,748 - root - INFO - Initialized Groq provider (groq_mixtral) with model: mixtral-8x7b-32768
+2025-02-28 15:32:44,748 - root - INFO - Initialized provider: groq_mixtral with model mixtral-8x7b-32768
+2025-02-28 15:32:44,749 - root - INFO - Initialized 3 providers
+2025-02-28 15:32:44,769 - werkzeug - WARNING -  * Debugger is active!
+2025-02-28 15:32:44,774 - werkzeug - INFO -  * Debugger PIN: 631-092-227
+2025-02-28 15:32:47,918 - werkzeug - INFO -  * Detected change in 'c:\\Users\\amans\\OneDrive\\Desktop\\TotemInteractive\\main.py', reloading
+2025-02-28 15:32:47,964 - werkzeug - INFO -  * Restarting with stat
+2025-02-28 15:32:48,322 - root - INFO - Logging setup complete
+2025-02-28 15:32:48,326 - root - INFO - Loaded config from providers.yaml
+2025-02-28 15:32:48,327 - root - INFO - Initialized Groq provider (groq_llama) with model: llama-3.1-8b-instant
+2025-02-28 15:32:48,327 - root - INFO - Initialized provider: groq_llama with model llama-3.1-8b-instant
+2025-02-28 15:32:48,328 - root - INFO - Initialized Together provider (together_llama) with model: meta-llama/Llama-3-70b-chat-hf
+2025-02-28 15:32:48,329 - root - INFO - Initialized provider: together_llama with model meta-llama/Llama-3-70b-chat-hf
+2025-02-28 15:32:48,329 - root - INFO - Initialized Groq provider (groq_mixtral) with model: mixtral-8x7b-32768
+2025-02-28 15:32:48,330 - root - INFO - Initialized provider: groq_mixtral with model mixtral-8x7b-32768
+2025-02-28 15:32:48,331 - root - INFO - Initialized 3 providers
+2025-02-28 15:32:48,352 - werkzeug - WARNING -  * Debugger is active!
+2025-02-28 15:32:48,357 - werkzeug - INFO -  * Debugger PIN: 631-092-227
+2025-02-28 15:32:51,546 - werkzeug - INFO -  * Detected change in 'c:\\Users\\amans\\OneDrive\\Desktop\\TotemInteractive\\main.py', reloading
+2025-02-28 15:32:51,605 - werkzeug - INFO -  * Restarting with stat
+2025-02-28 15:32:51,956 - root - INFO - Logging setup complete
+2025-02-28 15:32:51,962 - root - INFO - Loaded config from providers.yaml
+2025-02-28 15:32:51,963 - root - INFO - Initialized Groq provider (groq_llama) with model: llama-3.1-8b-instant
+2025-02-28 15:32:51,964 - root - INFO - Initialized provider: groq_llama with model llama-3.1-8b-instant
+2025-02-28 15:32:51,964 - root - INFO - Initialized Together provider (together_llama) with model: meta-llama/Llama-3-70b-chat-hf
+2025-02-28 15:32:51,965 - root - INFO - Initialized provider: together_llama with model meta-llama/Llama-3-70b-chat-hf
+2025-02-28 15:32:51,965 - root - INFO - Initialized Groq provider (groq_mixtral) with model: mixtral-8x7b-32768
+2025-02-28 15:32:51,966 - root - INFO - Initialized provider: groq_mixtral with model mixtral-8x7b-32768
+2025-02-28 15:32:51,966 - root - INFO - Initialized 3 providers
+2025-02-28 15:32:51,987 - werkzeug - WARNING -  * Debugger is active!
+2025-02-28 15:32:51,992 - werkzeug - INFO -  * Debugger PIN: 631-092-227
+2025-02-28 15:32:53,841 - werkzeug - INFO -  * Detected change in 'c:\\Users\\amans\\OneDrive\\Desktop\\TotemInteractive\\main.py', reloading
+2025-02-28 15:32:53,897 - werkzeug - INFO -  * Restarting with stat
+2025-02-28 15:32:54,268 - root - INFO - Logging setup complete
+2025-02-28 15:32:54,272 - root - INFO - Loaded config from providers.yaml
+2025-02-28 15:32:54,273 - root - INFO - Initialized Groq provider (groq_llama) with model: llama-3.1-8b-instant
+2025-02-28 15:32:54,273 - root - INFO - Initialized provider: groq_llama with model llama-3.1-8b-instant
+2025-02-28 15:32:54,275 - root - INFO - Initialized Together provider (together_llama) with model: meta-llama/Llama-3-70b-chat-hf
+2025-02-28 15:32:54,275 - root - INFO - Initialized provider: together_llama with model meta-llama/Llama-3-70b-chat-hf
+2025-02-28 15:32:54,276 - root - INFO - Initialized Groq provider (groq_mixtral) with model: mixtral-8x7b-32768
+2025-02-28 15:32:54,277 - root - INFO - Initialized provider: groq_mixtral with model mixtral-8x7b-32768
+2025-02-28 15:32:54,278 - root - INFO - Initialized 3 providers
+2025-02-28 15:32:54,298 - werkzeug - WARNING -  * Debugger is active!
+2025-02-28 15:32:54,303 - werkzeug - INFO -  * Debugger PIN: 631-092-227
+2025-02-28 15:33:06,673 - werkzeug - INFO -  * Detected change in 'c:\\Users\\amans\\OneDrive\\Desktop\\TotemInteractive\\logger.py', reloading
+2025-02-28 15:33:06,737 - werkzeug - INFO -  * Restarting with stat
+2025-02-28 15:33:07,129 - root - INFO - Logging setup complete
+2025-02-28 15:33:07,133 - root - INFO - Loaded config from providers.yaml
+2025-02-28 15:33:07,134 - root - INFO - Initialized Groq provider (groq_llama) with model: llama-3.1-8b-instant
+2025-02-28 15:33:07,135 - root - INFO - Initialized provider: groq_llama with model llama-3.1-8b-instant
+2025-02-28 15:33:07,135 - root - INFO - Initialized Together provider (together_llama) with model: meta-llama/Llama-3-70b-chat-hf
+2025-02-28 15:33:07,136 - root - INFO - Initialized provider: together_llama with model meta-llama/Llama-3-70b-chat-hf
+2025-02-28 15:33:07,136 - root - INFO - Initialized Groq provider (groq_mixtral) with model: mixtral-8x7b-32768
+2025-02-28 15:33:07,137 - root - INFO - Initialized provider: groq_mixtral with model mixtral-8x7b-32768
+2025-02-28 15:33:07,137 - root - INFO - Initialized 3 providers
+2025-02-28 15:33:07,162 - werkzeug - WARNING -  * Debugger is active!
+2025-02-28 15:33:07,167 - werkzeug - INFO -  * Debugger PIN: 631-092-227
+2025-02-28 15:33:09,033 - werkzeug - INFO -  * Detected change in 'c:\\Users\\amans\\OneDrive\\Desktop\\TotemInteractive\\logger.py', reloading
+2025-02-28 15:33:09,086 - werkzeug - INFO -  * Restarting with stat
+2025-02-28 15:33:09,433 - root - INFO - Logging setup complete
+2025-02-28 15:33:09,438 - root - INFO - Loaded config from providers.yaml
+2025-02-28 15:33:09,438 - root - INFO - Initialized Groq provider (groq_llama) with model: llama-3.1-8b-instant
+2025-02-28 15:33:09,438 - root - INFO - Initialized provider: groq_llama with model llama-3.1-8b-instant
+2025-02-28 15:33:09,439 - root - INFO - Initialized Together provider (together_llama) with model: meta-llama/Llama-3-70b-chat-hf
+2025-02-28 15:33:09,440 - root - INFO - Initialized provider: together_llama with model meta-llama/Llama-3-70b-chat-hf
+2025-02-28 15:33:09,440 - root - INFO - Initialized Groq provider (groq_mixtral) with model: mixtral-8x7b-32768
+2025-02-28 15:33:09,441 - root - INFO - Initialized provider: groq_mixtral with model mixtral-8x7b-32768
+2025-02-28 15:33:09,441 - root - INFO - Initialized 3 providers
+2025-02-28 15:33:09,464 - werkzeug - WARNING -  * Debugger is active!
+2025-02-28 15:33:09,469 - werkzeug - INFO -  * Debugger PIN: 631-092-227
+2025-02-28 15:33:12,634 - werkzeug - INFO -  * Detected change in 'c:\\Users\\amans\\OneDrive\\Desktop\\TotemInteractive\\logger.py', reloading
+2025-02-28 15:33:12,682 - werkzeug - INFO -  * Restarting with stat
+2025-02-28 15:33:13,024 - root - INFO - Logging setup complete
+2025-02-28 15:33:13,028 - root - INFO - Loaded config from providers.yaml
+2025-02-28 15:33:13,029 - root - INFO - Initialized Groq provider (groq_llama) with model: llama-3.1-8b-instant
+2025-02-28 15:33:13,030 - root - INFO - Initialized provider: groq_llama with model llama-3.1-8b-instant
+2025-02-28 15:33:13,030 - root - INFO - Initialized Together provider (together_llama) with model: meta-llama/Llama-3-70b-chat-hf
+2025-02-28 15:33:13,031 - root - INFO - Initialized provider: together_llama with model meta-llama/Llama-3-70b-chat-hf
+2025-02-28 15:33:13,032 - root - INFO - Initialized Groq provider (groq_mixtral) with model: mixtral-8x7b-32768
+2025-02-28 15:33:13,032 - root - INFO - Initialized provider: groq_mixtral with model mixtral-8x7b-32768
+2025-02-28 15:33:13,033 - root - INFO - Initialized 3 providers
+2025-02-28 15:33:13,056 - werkzeug - WARNING -  * Debugger is active!
+2025-02-28 15:33:13,061 - werkzeug - INFO -  * Debugger PIN: 631-092-227
+2025-02-28 15:33:17,498 - werkzeug - INFO -  * Detected change in 'c:\\Users\\amans\\OneDrive\\Desktop\\TotemInteractive\\logger.py', reloading
+2025-02-28 15:33:17,558 - werkzeug - INFO -  * Restarting with stat
+2025-02-28 15:33:17,986 - root - INFO - Logging setup complete
+2025-02-28 15:33:17,991 - root - INFO - Loaded config from providers.yaml
+2025-02-28 15:33:17,992 - root - INFO - Initialized Groq provider (groq_llama) with model: llama-3.1-8b-instant
+2025-02-28 15:33:17,992 - root - INFO - Initialized provider: groq_llama with model llama-3.1-8b-instant
+2025-02-28 15:33:17,993 - root - INFO - Initialized Together provider (together_llama) with model: meta-llama/Llama-3-70b-chat-hf
+2025-02-28 15:33:17,994 - root - INFO - Initialized provider: together_llama with model meta-llama/Llama-3-70b-chat-hf
+2025-02-28 15:33:17,995 - root - INFO - Initialized Groq provider (groq_mixtral) with model: mixtral-8x7b-32768
+2025-02-28 15:33:17,995 - root - INFO - Initialized provider: groq_mixtral with model mixtral-8x7b-32768
+2025-02-28 15:33:17,996 - root - INFO - Initialized 3 providers
+2025-02-28 15:33:18,024 - werkzeug - WARNING -  * Debugger is active!
+2025-02-28 15:33:18,030 - werkzeug - INFO -  * Debugger PIN: 631-092-227
+2025-02-28 15:33:21,214 - werkzeug - INFO -  * Detected change in 'c:\\Users\\amans\\OneDrive\\Desktop\\TotemInteractive\\logger.py', reloading
+2025-02-28 15:33:21,263 - werkzeug - INFO -  * Restarting with stat
+2025-02-28 15:33:21,701 - root - INFO - Logging setup complete
+2025-02-28 15:33:21,705 - root - INFO - Loaded config from providers.yaml
+2025-02-28 15:33:21,707 - root - INFO - Initialized Groq provider (groq_llama) with model: llama-3.1-8b-instant
+2025-02-28 15:33:21,708 - root - INFO - Initialized provider: groq_llama with model llama-3.1-8b-instant
+2025-02-28 15:33:21,708 - root - INFO - Initialized Together provider (together_llama) with model: meta-llama/Llama-3-70b-chat-hf
+2025-02-28 15:33:21,709 - root - INFO - Initialized provider: together_llama with model meta-llama/Llama-3-70b-chat-hf
+2025-02-28 15:33:21,710 - root - INFO - Initialized Groq provider (groq_mixtral) with model: mixtral-8x7b-32768
+2025-02-28 15:33:21,711 - root - INFO - Initialized provider: groq_mixtral with model mixtral-8x7b-32768
+2025-02-28 15:33:21,712 - root - INFO - Initialized 3 providers
+2025-02-28 15:33:21,739 - werkzeug - WARNING -  * Debugger is active!
+2025-02-28 15:33:21,744 - werkzeug - INFO -  * Debugger PIN: 631-092-227
+2025-02-28 15:33:24,954 - werkzeug - INFO -  * Detected change in 'c:\\Users\\amans\\OneDrive\\Desktop\\TotemInteractive\\logger.py', reloading
+2025-02-28 15:33:25,007 - werkzeug - INFO -  * Restarting with stat
+2025-02-28 15:33:25,411 - root - INFO - Logging setup complete
+2025-02-28 15:33:25,416 - root - INFO - Loaded config from providers.yaml
+2025-02-28 15:33:25,417 - root - INFO - Initialized Groq provider (groq_llama) with model: llama-3.1-8b-instant
+2025-02-28 15:33:25,418 - root - INFO - Initialized provider: groq_llama with model llama-3.1-8b-instant
+2025-02-28 15:33:25,419 - root - INFO - Initialized Together provider (together_llama) with model: meta-llama/Llama-3-70b-chat-hf
+2025-02-28 15:33:25,419 - root - INFO - Initialized provider: together_llama with model meta-llama/Llama-3-70b-chat-hf
+2025-02-28 15:33:25,420 - root - INFO - Initialized Groq provider (groq_mixtral) with model: mixtral-8x7b-32768
+2025-02-28 15:33:25,425 - root - INFO - Initialized provider: groq_mixtral with model mixtral-8x7b-32768
+2025-02-28 15:33:25,426 - root - INFO - Initialized 3 providers
+2025-02-28 15:33:25,451 - werkzeug - WARNING -  * Debugger is active!
+2025-02-28 15:33:25,456 - werkzeug - INFO -  * Debugger PIN: 631-092-227
