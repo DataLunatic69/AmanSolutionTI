@@ -5,7 +5,7 @@ from provider import OllamaProvider, GroqProvider
 from errors import ProviderError
 
 class ModelRouter:
-    def __init__(self, config_file="config.yaml"):
+    def __init__(self, config_file="providers.yaml"):
         self.config = self.load_config(config_file)
         self.providers = self.initialize_providers()
 

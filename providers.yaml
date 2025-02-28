@@ -1,11 +1,11 @@
 providers:
   - name: "ollama"
     endpoint: "https://api.ollama.com/v1/chat"
-    token: "your-ollama-api-token"
+    token: "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"
     cost_per_1k_tokens: 0.002
     priority: 1
   - name: "groq"
     endpoint: "https://api.groq.com/v1/generate"
-    token: "your-groq-api-token"
+    token: "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"
     cost_per_1k_tokens: 0.001
     priority: 2
