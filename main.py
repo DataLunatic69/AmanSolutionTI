@@ -3,13 +3,13 @@ import logging
 from logger import setup_logging
 from routers import ModelRouter
 
-# Initialize logging
+
 setup_logging()
 
-# Create Flask app
+
 app = Flask(__name__)
 
-# Initialize the model router
+
 model_router = ModelRouter()
 
 @app.route('/', methods=['GET'])
@@ -25,7 +25,7 @@ def generate():
 
         response, provider_info = model_router.invoke(data['prompt'])
 
-        # Format the response with activity logs
+        
         return jsonify({
             'response': response,
             'provider': provider_info['name'],
